@@ -1,0 +1,117 @@
+/* Main layout container */
+.main-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff; /* Keeps the dark theme */
+  }
+  
+  /* Sidebar styles */
+  .sidebar-container {
+    width: 20%;
+    height: 100vh;
+    background-color: #ffffff; /* Dark sidebar background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Keeps it in place */
+    left: 0;
+    top: 4%;
+  }
+  
+  /* Students table container */
+  .students-container {
+    width: 75%;
+    margin-left: 12%;
+    transform: translateX(10%);
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color: #f0efef(0, 0, 0);
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+    align-content: space-around;
+    flex-direction: row;
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow: 3px 4px 3px 3px black;
+    height: 89%;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  /* Title */
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(11, 11, 11);
+  }
+  
+  /* Add Student Button */
+  .add-button {
+    background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    color: rgb(245, 245, 245);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  
+  .add-button:hover {
+    background: linear-gradient(144deg, #5b42f3, #af40ff 50%, #00ddeb);
+  }
+  
+  /* Table Container */
+  .table-container {
+    background: rgb(18, 18, 18);
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+  }
+  
+  /* Table Styling */
+  .MuiTable-root {
+    border-radius: 10px;
+  }
+  
+  /* Table Head */
+  .MuiTableHead-root {
+    background: #141414;
+  }
+  
+  .MuiTableHead-root th {
+    color: white !important;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Table Rows */
+  .MuiTableRow-root {
+    transition: all 0.3s ease;
+  }
+  
+  .MuiTableRow-root:hover {
+    background: #444242;
+  }
+  
+  /* Table Cells */
+  .MuiTableCell-root {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  /* Icon Buttons */
+  .MuiIconButton-root {
+    color: black;
+  }
+  
+  .MuiIconButton-root:hover {
+    color: red;
+  }
+  
